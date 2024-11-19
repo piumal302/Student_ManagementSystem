@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import StudentTable from "./components/StudentTable";
-import { students } from "./data/StudentsDb";
+import { students } from "./data/studentDb";
 
 function App() {
   const [fntSize, setFontSize] = useState(16);
